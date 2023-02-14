@@ -61,16 +61,15 @@ input {
   flex-grow: 0; */
 }
 .btn {
-    display: inline-block;
+  color: #ffff;
+  padding: 12px 190px 12px 190px;
+}
+button{
+  margin-top: 44px;
+  height: 54px;
+  border: none;
   background: #4c70ff;
   border-radius: 8px;
-  padding: 12px 190px 12px 190px;
-  margin-top: 44px;
-  border: none;
-}
-.btn {
-  color: #ffff;
-
 }
 .text {
   margin: 19px 0 0 0;
