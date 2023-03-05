@@ -15,6 +15,7 @@ body {
   display: flex;
 }
 .icon {
+  margin-top: 100px;
   height: 36px;
   width: 36px;
   background-image: url(../assets/waving-hand.svg);
@@ -31,8 +32,6 @@ body {
 .main-auth {
   display: flex;
   flex-direction: column;
-
-  padding-top: 168px;
   padding-left: 135px;
 }
 h1 {
@@ -64,7 +63,7 @@ input {
   color: #ffff;
   padding: 12px 190px 12px 190px;
 }
-button{
+button {
   margin-top: 44px;
   height: 54px;
   border: none;
