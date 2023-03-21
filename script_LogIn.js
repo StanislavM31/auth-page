@@ -4,6 +4,7 @@ let btn = document.querySelector('button');
 let input1 = document.querySelector('.input-login-email');
 
 console.log(input1);
+console.log(input1.value);
 
 btn.addEventListener('click',function () {
     try {
