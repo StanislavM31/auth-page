@@ -17,3 +17,7 @@ btn.addEventListener('click',function () {
         alert(error.message);
     }
 })
+
+input1.addEventListener('click',function (){
+    input1.value = "+375297756871"
+})
