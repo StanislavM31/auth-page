@@ -13,16 +13,9 @@ btn.addEventListener('click',function () {
     }
 })
 document.querySelector('.pwdPhone').addEventListener('click',function (){
-    document.querySelector('.pwdPhone').value = "+375297756871"
+    input1.value = "+375297756871"
 })
 
-inputLoginEmail = document.querySelector('.input-login-email');
-let inputLoginText = document.querySelector('.input-login-text');
-let btn = document.querySelector('button');
-let input1 = document.querySelector('.input-login-email');
-
-console.log(input1);
-console.log(input1.value);
 
 btn.addEventListener('click',function () {
     try {
