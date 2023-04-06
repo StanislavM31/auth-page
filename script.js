@@ -4,9 +4,6 @@ let inputLoginConfirm = document.querySelector('.title pswrd');
 
 let btn = document.querySelector('button');
 
-
-
-
 btn.addEventListener('click',function () {
     if(!inputLoginEmail){
         alert('пустое email or phone number');
