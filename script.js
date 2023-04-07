@@ -10,7 +10,7 @@ btn.addEventListener('click',function () {
     }
 })
 document.querySelector('.pwdPhone').addEventListener('click',function (){
-    input1.value = "+375297756871"
+    document.querySelector('.pwdPhone').value = "+375297756871"
 })
 
 
