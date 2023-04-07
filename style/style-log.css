@@ -17,11 +17,12 @@ body {
 .icon {
   height: 36px;
   width: 36px;
-  background-image: url(./assets/waving-hand.svg);
+  background-image: url(../assets/waving-hand.svg);
+  margin-top: 100px;
 }
 .main-img {
   background-color: #e2f0ff;
-  background-image: url(./assets/onboarding.svg);
+  background-image: url(../assets/onboarding.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,8 +32,6 @@ body {
 .main-auth {
   display: flex;
   flex-direction: column;
-
-  padding-top: 168px;
   padding-left: 135px;
 }
 h1 {
@@ -70,6 +69,9 @@ button{
   border: none;
   background: #4c70ff;
   border-radius: 8px;
+}
+button:hover{
+  cursor: progress;
 }
 .text {
   margin: 19px 0 0 0;
