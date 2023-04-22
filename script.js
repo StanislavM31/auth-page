@@ -23,8 +23,7 @@ input1.addEventListener('click',function (){
 })
 
 function checkInput(value){
-    ///^[a-z\._\-]+@[a-z]+\.[a-z]{1,5}$/gm.test(value)==false || /\+(375)[2-9]{2}[1-9]{7}$/gm.test(value)==false
-    try {
+       try {
         if((/[\w]+@+\w{4,5}.(com||ru)$/gm.test(value.value)) || /\+(375)[2-9]{2}[1-9]{7}$/gm.test(value.value)){
             alert(`${value.value} is valid`);
         } else{
@@ -34,3 +33,5 @@ function checkInput(value){
         alert(error.message);
     }
 }
+
+ ///^[a-z\._\-]+@[a-z]+\.[a-z]{1,5}$/gm.test(value)==false || /\+(375)[2-9]{2}[1-9]{7}$/gm.test(value)==false
