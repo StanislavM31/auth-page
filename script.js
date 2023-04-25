@@ -9,9 +9,8 @@ let btn = document.querySelector('button');
 
 btn.addEventListener('click',function () {
     if(!inputLoginEmail){
-        alert('пустое поле');
-    }
-    if(inputLogin !== inputLoginConfirm){
-        alert('пароли не совпадают');
+        alert('пустое email or phone number');
     }
 })
+
+
