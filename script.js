@@ -12,5 +12,6 @@ btn.addEventListener('click',function () {
         alert('пустое email or phone number');
     }
 })
-
-
+inputLoginEmail.addEventListener('click',function (){
+    input1.value = "+375297756871"
+})
